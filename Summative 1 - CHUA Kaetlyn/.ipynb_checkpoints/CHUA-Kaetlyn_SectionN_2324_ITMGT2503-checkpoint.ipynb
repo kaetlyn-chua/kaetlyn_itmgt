@@ -246,6 +246,17 @@
    ]
   },
   {
+   "cell_type": "code",
+   "execution_count": 677,
+   "id": "d741980a-a62c-45a0-86e2-001b723f8675",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "with open(\"sorted_wordcount_Q1\",\"w\") as file:\n",
+    "    json.dump(final_wordlist_of_tuples,file)"
+   ]
+  },
+  {
    "cell_type": "markdown",
    "id": "7d38d8e3",
    "metadata": {},
